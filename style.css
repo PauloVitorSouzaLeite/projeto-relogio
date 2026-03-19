@@ -1,0 +1,50 @@
+@charset "UTF-8";
+:root {
+    --ftn1: "Arial","Helvetica","sans-serif";
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+}
+header > h1 {
+    font-size: 3em;
+    font-weight: 800;
+    font-family: var(--ftn1);
+    color: white;
+}
+#resultado {
+    box-shadow: 4px 4px 2px 2px rgba(0, 0, 0, 0.507);
+    margin: 70px auto;
+    width: 90%;
+    max-width: 400px;
+    font-size: 6em;
+    text-align: center;
+    width: 90%;
+    color: white;
+    font-weight: 800;
+    border-radius: 15px 15px 10px 10px;
+    border: 4px solid black;
+}
+#imgn {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+img {
+    width: 100px;
+}
+footer {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: var(--ftn1);
+    font-weight: 800;
+    color: white;
+}
+.sombra {
+    text-shadow : 0px 3px 2px black;
+}
